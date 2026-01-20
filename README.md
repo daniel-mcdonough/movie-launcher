@@ -2,6 +2,8 @@
 
 A terminal UI for searching and launching videos from a local collection.
 
+![demo](demo.gif)
+
 ## Install
 
 ```
