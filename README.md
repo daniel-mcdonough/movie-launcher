@@ -6,14 +6,7 @@ A terminal UI for searching and launching videos from a local collection.
 
 ## Install
 
-```
-go install
-```
-
-Or build manually:
-```
-go build
-```
+Download the latest binary from [Releases](../../releases).
 
 ## Usage
 
@@ -40,3 +33,9 @@ movie-launcher matrix 1999
 - `/` - filter results
 - `Enter` - play selected video
 - `q` - quit
+
+## Building from source
+
+```
+go build
+```
