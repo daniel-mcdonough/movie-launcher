@@ -3,6 +3,10 @@ name: Build and Release
 on:
   push:
     branches: [master]
+    paths:
+      - '**.go'
+      - 'go.mod'
+      - 'go.sum'
 
 permissions:
   contents: write
